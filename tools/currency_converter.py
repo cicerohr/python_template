@@ -19,18 +19,6 @@ from logs.loguru_conf import logger
 API_KEY = '5f017427a45873191a79'
 
 
-# dicionario = {
-#                  'source_currency': 'EUR',
-#                  'target_currency': 'BRL',
-#                  'amount': 2.0,
-#                  'api_domain': 'https://free.currconv.com',
-#                  'api_version': '/api/v7',
-#                  '_CurrencyConverter__api_key': 'apiKey=5f017427a45873191a79',
-#                  'query_converter': '/convert?q=EUR_BRL&compact=ultra&',
-#                  'response': < Response[200] >,
-#              'converted_amount': None
-# }
-
 class CurrencyConverter:
     """Currency converter class."""
 
