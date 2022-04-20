@@ -6,7 +6,7 @@ from tools.currency_converter import CurrencyConverter
 class TestCurrencyConverter(TestCase):
     def test_convert_currency(self):
         converter = CurrencyConverter('EUR', 'BRL', 2)
-        self.assertEqual(converter.convert(), 10.123592)
+        self.assertEqual(converter.convert(), 10.037236)
 
     def test_convert_currency_with_invalid_currency(self):
         converter = CurrencyConverter('US', 'EUR', 1)
