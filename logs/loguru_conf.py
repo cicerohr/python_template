@@ -9,7 +9,7 @@ from loguru import logger
 logger.remove()  # Don't show any logs on console (remove all handlers).
 
 logger.add(
-    '../logs/tools_currency_converter.log',
+    '../logs/tools_logs.log',
     level='DEBUG',
     backtrace=True,
     diagnose=True,
