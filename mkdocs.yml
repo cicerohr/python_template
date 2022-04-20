@@ -1,0 +1,34 @@
+site_name: Template
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - header.autohide
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cicerohr
+    - icon: fontawesome/brands/github
+      link: https://github.com/cicerohr
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
