@@ -1,7 +1,6 @@
 """Tool pack for email.
 
 emails.py in: 2021-12-11.
-@author: Cícero
 
 This module exports the following functions:
     -> is_valid - Check if the string is a valid email.

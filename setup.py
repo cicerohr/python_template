@@ -8,13 +8,13 @@ def read(file_name):
 
 
 setup(
-    name='_template',
+    name='Template',
     version='',
     packages=[''],
     url='',
     license='MIT License',
-    author='Cícero',
-    author_email='cicerohr@gmail.com',
-    description='Template para projetos',
+    author='',
+    author_email='your_email@domain.com',
+    description='Project template',
     long_description=read('README.md'),
 )
