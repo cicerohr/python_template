@@ -22,9 +22,9 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/cicerohr
+      link: https://twitter.com/
     - icon: fontawesome/brands/github
-      link: https://github.com/cicerohr
+      link: https://github.com/
 
 markdown_extensions:
   - pymdownx.emoji
